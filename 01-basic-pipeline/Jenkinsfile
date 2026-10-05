@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('first') {
+            steps {
+                echo 'Hello Mantasha-day-1 practice of jenkins'
+            }
+        }
+    }
+}
